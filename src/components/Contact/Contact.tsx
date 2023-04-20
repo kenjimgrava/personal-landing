@@ -1,6 +1,6 @@
 import React from "react";
 
-function Contact() {
+function Contact({ onInView }: any) {
   return (
     <div className="mt-32" id="contact">
       <div className="text-white text-5xl text-center mb-10">
