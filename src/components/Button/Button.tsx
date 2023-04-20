@@ -1,11 +1,15 @@
 import React from "react";
-
-function Button({ text, className, link, child }: any) {
+interface ButtonProps {
+  text: string;
+  className?: string;
+  callBack: () => void;
+}
+function Button({ text, className, callBack }: ButtonProps) {
   return (
     <div
-      className={`border border-4 rounded-md border-amber-300  w-32 p-2 text-center ${className} hover:bg-amber-300 hover:text-black  font-medium`}
+      className={`border border-4 rounded-md border-amber-300  p-2 text-center ${className} hover:bg-amber-300 hover:text-black  font-medium`}
     >
-      <button>{link ? child : text}</button>
+      <button onClick={callBack}>{text}</button>
     </div>
   );
 }

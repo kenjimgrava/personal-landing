@@ -2,9 +2,21 @@ import React from "react";
 import image from "@assets/kenji-boy.png";
 import linkedIn from "@assets/linkedin.webp";
 import git from "@assets/github.png";
+import Button from "../Button/Button";
+import resume from "@assets/resume/resume.pdf";
 function About() {
+  const downloadResume = () => {
+    const fileName = "Kenji-mille-grava-resume.pdf";
+    const link = document.createElement("a");
+    link.href = resume;
+    link.download = fileName;
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
   return (
     <div className={` h-full text-gray-400 container mx-auto`} id="about">
+      {/* <img src={resume} /> */}
       <div className="md:flex items-center justify-around">
         <div className="mb-2 md:mb-0 p-5">
           <div className="text-xl">
@@ -15,6 +27,7 @@ function About() {
             and I'm{" "}
             <span className="text-amber-300 text-2xl">Software Developer</span>
           </div>
+          <Button text="Download my Resume" callBack={downloadResume} />
         </div>
         <div>
           <img src={image} width={700} className="rounded-lg" />
