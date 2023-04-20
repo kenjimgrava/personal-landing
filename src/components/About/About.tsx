@@ -31,7 +31,7 @@ function About() {
               </a>
               <a
                 className="mt-3 mr-3"
-                href="https://www.linkedin.com/in/kmg-4all"
+                href="https://github.com/kenjimgrava"
                 target="_blank"
               >
                 <img
