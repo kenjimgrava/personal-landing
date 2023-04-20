@@ -17,7 +17,7 @@ function Project({ project }: ProjectProps) {
           <div className="text-amber-300 text-2xl font-bold">
             {project.name}
           </div>
-          <div className="text-zinc-500	 font-sm">{project.description}</div>
+          <div className="text-gray-500 font-sm">{project.description}</div>
           <div className="text-zinc-400	 font-sm mt-2">
             <div className="text-amber-300 ">Web Development link: </div>
             <div className="mb-2 text-blue-400">
