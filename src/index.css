@@ -5,3 +5,7 @@
 body {
   color: white;
 }
+
+.w-full:hover > div {
+  opacity: 1;
+}

@@ -19,15 +19,6 @@ function Header() {
       setBgColor("transparent");
     }
   };
-  const smoothScrollTo = (id: any) => {
-    const target = document.getElementById(id);
-    if (target) {
-      window.scrollTo({
-        top: target.offsetTop,
-        behavior: "smooth",
-      });
-    }
-  };
   return (
     <div
       className={`sticky top-0 z-999999 relative !important w-full p-5   ${

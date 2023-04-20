@@ -2,7 +2,6 @@ import React from "react";
 import image from "@assets/kenji-boy.png";
 import linkedIn from "@assets/linkedin.webp";
 import git from "@assets/github.png";
-import Button from "../Button/Button";
 function About() {
   return (
     <div className={` h-full text-gray-400 container mx-auto`} id="about">
@@ -16,7 +15,6 @@ function About() {
             and I'm{" "}
             <span className="text-amber-300 text-2xl">Software Developer</span>
           </div>
-          <Button text="Contact Me" className="text-amber-300" />
         </div>
         <div>
           <img src={image} width={700} className="rounded-lg" />

@@ -1,3 +1,6 @@
 .background {
   background: #2e2f33;
 }
+.display-hover:hover {
+  opacity: 1;
+}
