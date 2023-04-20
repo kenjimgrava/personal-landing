@@ -3,7 +3,6 @@ import image from "@assets/kenji-boy.png";
 import linkedIn from "@assets/linkedin.webp";
 import git from "@assets/github.png";
 import Button from "../Button/Button";
-import resume from "@assets/resume/resume.pdf";
 function About() {
   const downloadResume = () => {
     // const fileName = "Kenji-mille-grava-resume.pdf";
