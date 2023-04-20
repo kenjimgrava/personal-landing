@@ -16,7 +16,6 @@ function About() {
   };
   return (
     <div className={` h-full text-gray-400 container mx-auto`} id="about">
-      {/* <img src={resume} /> */}
       <div className="md:flex items-center justify-around">
         <div className="mb-2 md:mb-0 p-5">
           <div className="text-xl">
