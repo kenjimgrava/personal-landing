@@ -28,7 +28,7 @@ function About() {
           </div>
           <Button text="Download my Resume" callBack={downloadResume} />
         </div>
-        <div>
+        <div className="p-5">
           <img src={image} width={700} className="rounded-lg" />
           <div className="flex gap-4 -mt-14 justify-between ">
             <div></div>
