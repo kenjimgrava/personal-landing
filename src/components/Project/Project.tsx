@@ -12,7 +12,7 @@ function Project({ project }: ProjectProps) {
         className="object-cover w-full h-full rounded-lg"
         src={project.image?.url}
       />
-      <div className="text-center p-5 absolute inset-0 flex items-center justify-center backdrop-blur-lg backdrop-filter opacity-0 transition-opacity duration-300 rounded-lg">
+      <div className="text-center p-5 absolute inset-0 flex items-center justify-center backdrop-blur-lg backdrop-filter opacity-0 transition-opacity duration-300 rounded-lg overflow-auto	mt-0 sm:mt-5 mb sm:mb-5">
         <div>
           <div className="text-amber-300 text-2xl font-bold">
             {project.name}
