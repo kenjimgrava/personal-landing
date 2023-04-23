@@ -1,7 +1,7 @@
 import React from "react";
 import { ProjectType } from "../../@customTypes/project";
 import { getProjects } from "../../endpoints/hygrap";
-import Project from "../Project/Project";
+import { Project } from "../../components";
 
 function Portfolio() {
   const projects = getProjects().projects;

@@ -1,7 +1,7 @@
 import React from "react";
 import { Stack } from "../../@customTypes/stack";
 import { getTechnologyStack } from "../../endpoints/hygrap";
-import Skill from "../Skill/Skill";
+import { Skill } from "../../components";
 
 function Skills() {
   const techStack = getTechnologyStack().technologyStacks || [];

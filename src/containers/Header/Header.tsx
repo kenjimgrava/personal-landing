@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import logo from "@assets/logo.png";
 import { Link } from "react-scroll";
-import HeaderLinks from "../HeaderLinks/HeaderLinks";
+import HeaderLinks from "../../components/HeaderLinks/HeaderLinks";
 
 function Header() {
   const [bgColor, setBgColor] = useState("");

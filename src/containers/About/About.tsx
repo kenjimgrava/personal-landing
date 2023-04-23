@@ -2,7 +2,7 @@ import React from "react";
 import image from "@assets/kenji-boy.png";
 import linkedIn from "@assets/linkedin.webp";
 import git from "@assets/github.png";
-import Button from "../Button/Button";
+import { Button } from "../../components";
 import resume from "@assets/resume/resume.pdf";
 function About() {
   const downloadResume = () => {
@@ -62,7 +62,9 @@ function About() {
         <div className="flex  gap-5">
           <div className="border h-1  border-amber-300 w-20"></div>
           <div className="-mt-2 text-xl">
-            I am <span className="text-amber-300">passionate</span> about{" "}
+            I have <span className="text-amber-300">3-4 years</span> of
+            development experience and I am{" "}
+            <span className="text-amber-300">passionate</span> about{" "}
             <span className="text-amber-300">learning</span> and{" "}
             <span className="text-amber-300">expanding my skillset</span>, and I
             thrive in{" "}
@@ -79,7 +81,7 @@ function About() {
             <span className="text-amber-300">producing high-quality work</span>{" "}
             that meets the needs of both clients and end-users. If you are
             looking for a dedicated and{" "}
-            <span className="text-amber-300">skilled software developer</span>
+            <span className="text-amber-300">skilled software developer </span>
             to join your team, I would love to talk with you about how my{" "}
             <span className="text-amber-300">experience</span> and{" "}
             <span className="text-amber-300">expertise</span> can benefit your

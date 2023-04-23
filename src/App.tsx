@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import Homepage from "./components/Homepage/Homepage";
-import Header from "./components/Header/Header";
+import { Skills, Portfolio, Contact, About } from "./containers";
+import { Header } from "./containers";
 
 function App() {
   return (
@@ -10,7 +10,10 @@ function App() {
         <Header />
       </div>
       <div className="relative z-0">
-        <Homepage />
+        <About />
+        <Skills />
+        <Portfolio />
+        <Contact />
       </div>
     </div>
   );
