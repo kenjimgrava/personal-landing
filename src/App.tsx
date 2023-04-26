@@ -4,7 +4,7 @@ import { Skills, Portfolio, Contact, About, Header } from "./containers";
 
 function App() {
   return (
-    <div className="background h-full border-4 border-amber-900	">
+    <div className="background h-full border-bg	">
       <div className="sticky top-0 z-10">
         <Header />
       </div>
