@@ -5,8 +5,8 @@ function HeaderLinks({ activeSection }: any) {
   return (
     <div className="flex gap-5 ">
       <div
-        className={`hover:text-amber-300 cursor-pointer ${
-          activeSection === "about" ? "text-amber-300" : ""
+        className={`text-color-blue-hover cursor-pointer ${
+          activeSection === "about" ? "text-color-blue" : ""
         }`}
       >
         <Link to="about" smooth={true} duration={500}>
@@ -14,8 +14,8 @@ function HeaderLinks({ activeSection }: any) {
         </Link>
       </div>
       <div
-        className={`hover:text-amber-300 cursor-pointer ${
-          activeSection === "skills" ? "text-amber-300" : ""
+        className={`text-color-blue-hover cursor-pointer ${
+          activeSection === "skills" ? "text-color-blue" : ""
         }`}
       >
         <Link to="skills" smooth={true} duration={500}>
@@ -23,8 +23,8 @@ function HeaderLinks({ activeSection }: any) {
         </Link>
       </div>
       <div
-        className={`hover:text-amber-300 cursor-pointer ${
-          activeSection === "portfolio" ? "text-amber-300" : ""
+        className={`text-color-blue-hover cursor-pointer ${
+          activeSection === "portfolio" ? "text-color-blue" : ""
         }`}
       >
         <Link to="portfolio" smooth={true} duration={500}>
@@ -32,8 +32,8 @@ function HeaderLinks({ activeSection }: any) {
         </Link>
       </div>
       <div
-        className={`hover:text-amber-300 cursor-pointer ${
-          activeSection === "contact" ? "text-amber-300" : ""
+        className={`text-color-blue-hover cursor-pointer ${
+          activeSection === "contact" ? "text-color-blue" : ""
         }`}
       >
         <Link to="contact" smooth={true} duration={500}>

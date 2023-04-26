@@ -1,7 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { Skills, Portfolio, Contact, About } from "./containers";
-import { Header } from "./containers";
+import { Skills, Portfolio, Contact, About, Header } from "./containers";
 
 function App() {
   return (
