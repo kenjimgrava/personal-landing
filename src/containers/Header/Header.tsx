@@ -47,7 +47,14 @@ function Header() {
       } sm:px-4 `}
     >
       <div className="flex items-center justify-between px-0 lg:px-40 h-20 text-neutral-400	 ">
-        <img src={logo} width={200} />
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          className="cursor-pointer"
+        >
+          <img src={logo} width={200} />
+        </Link>
         <div className="block sm:hidden" onClick={setState}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
