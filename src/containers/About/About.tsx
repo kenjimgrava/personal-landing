@@ -26,14 +26,14 @@ function About() {
             and I'm{" "}
             <span className="text-color-blue text-2xl">Software Developer</span>
           </div>
-          <Button text="Download my Resume" callBack={downloadResume} />
+          <Button text="Download my Resume" callBack={downloadResume} className="transform transition-transform hover:scale-105"/>
         </div>
         <div className="p-5">
           <img src={image} width={700} className="rounded-lg" />
           <div className="flex gap-4 -mt-14 justify-between ">
             <div></div>
             <div className="flex">
-              <a href="https://www.linkedin.com/in/kmg-4all" target="_blank">
+              <a href="https://www.linkedin.com/in/kmg-4all" target="_blank" className="transform transition-transform hover:scale-105">
                 <img
                   className="cursor-pointer rounded-lg"
                   src={linkedIn}
@@ -42,7 +42,7 @@ function About() {
                 />
               </a>
               <a
-                className="mt-3 mr-3"
+                className="mt-3 mr-3 transform transition-transform hover:scale-105"
                 href="https://github.com/kenjimgrava"
                 target="_blank"
               >

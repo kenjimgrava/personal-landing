@@ -14,7 +14,7 @@ function Portfolio() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 ">
           {projects?.map((project: ProjectType) => {
             return (
-              <div className="mt-5 sm:mt-0 p-5 sm:p-0 shadow-2xl ">
+              <div className="mt-5 sm:mt-0 p-5 sm:p-0 shadow-2xl transform transition-transform hover:translate-y-[-2%]">
                 <Project project={project} />
               </div>
             );

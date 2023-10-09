@@ -16,7 +16,7 @@ function Skills() {
             return (
               <div
                 key={index}
-                className="bg-zinc-700 shadow-2xl image-hoverable rounded-lg "
+                className="bg-zinc-700 shadow-2xl image-hoverable rounded-lg transform transition-transform hover:translate-y-[-2%]"
               >
                 <Skill skill={stack} />
               </div>
