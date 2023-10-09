@@ -62,7 +62,7 @@ function About() {
         <div className="flex  gap-5">
           <div className="border h-1  border-amber-300 w-20"></div>
           <div className="-mt-2 text-xl">
-            I have <span className="text-color-blue">3-4 years</span> of
+            I have <span className="text-color-blue">{new Date().getFullYear()- 2019}-{ new Date().getFullYear()+1 - 2019} years</span> of
             development experience and I am{" "}
             <span className="text-color-blue">passionate</span> about{" "}
             <span className="text-color-blue">learning</span> and{" "}
@@ -79,7 +79,7 @@ function About() {
             <span className="text-color-blue">streamline processes</span>, and I
             am committed to{" "}
             <span className="text-color-blue">producing high-quality work</span>{" "}
-            that meets the needs of both clients and end-users. If you are
+            that meets the needs of both <span className="text-color-blue">clients</span> and <span className="text-color-blue">end-users</span>. If you are
             looking for a dedicated and{" "}
             <span className="text-color-blue">skilled software developer </span>
             to join your team, I would love to talk with you about how my{" "}
