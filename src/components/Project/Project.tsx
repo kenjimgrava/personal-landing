@@ -22,7 +22,21 @@ function Project({ project }: ProjectProps) {
               {project.webLink?.websites!.map((website: Website) => {
                 return (
                   <div>
-                    <a href={website.url} target="_blank" className="underline">
+                    <a
+                      href={
+                        !website.name?.includes("not available")
+                          ? website.url
+                          : ""
+                      }
+                      target={`${
+                        website.name?.includes("not available") ? "" : "_blank"
+                      }`}
+                      className={`underline ${
+                        website.name?.includes("not available")
+                          ? "cursor-not-allowed	"
+                          : ""
+                      }`}
+                    >
                       {website.name}
                     </a>
                   </div>
