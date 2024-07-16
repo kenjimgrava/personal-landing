@@ -72,7 +72,7 @@ function About() {
           <div className="-mt-2 text-xl">
             I'm an experienced Software Developer with 5 - 6 years of
             experience, specializing in web applications. My expertise includes
-            React, TypeScript, JavaScript, and UI libraries. I focus on
+            React, Angular, TypeScript, JavaScript, and UI libraries. I focus on
             delivering pixel-perfect, responsive designs and have skills in
             optimizing performance, conducting testing, and collaborating within
             cross- functional teams.
